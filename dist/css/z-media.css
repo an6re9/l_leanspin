@@ -14,7 +14,7 @@
     font-size: 78px;
   }
 
-  .proposal__title {
+  .proposal__item-title {
     font-size: 3vw;
   }
 
@@ -22,7 +22,7 @@
     width: 100%;
   }
 
-  .slider .pagination__item {
+  .slider__pagination-item {
     font-size: 100px;
   }
 
@@ -99,16 +99,20 @@
     padding-bottom: 40px;
   }
 
-  .slider .pagination__item {
+  .histories__title {
+    font-size: 108px;
+  }
+
+  .slider__pagination-item {
     font-size: 86px;
   }
 
-  .inspiration .title {
+  .inspiration__title {
     font-size: 80px;
     margin-bottom: 15px;
   }
 
-  .inspiration .title__container {
+  .inspiration__title-container {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
@@ -149,7 +153,7 @@
     opacity: 1;
   }
 
-  .navigation__menu {
+  .burger__navigation-menu {
     position: fixed;
     top: 0;
     left: 0;
@@ -181,18 +185,18 @@
     transition: 0.5s;
   }
 
-  .navigation__item:not(:last-child) {
+  .burger__navigation-item:not(:last-child) {
     margin-right: 0;
     margin-bottom: 20px;
   }
 
-  .navigation__link {
+  .burger__navigation-link {
     font-size: 20px;
     line-height: 1;
     letter-spacing: 1px;
   }
 
-  .navigation__menu_mobile {
+  .burger__navigation-menu_mobile {
     position: fixed;
     top: 0;
     left: 0;
@@ -224,11 +228,11 @@
     transition: all 0.3s;
   }
 
-  .proposal__title {
+  .proposal__item-title {
     font-size: 24px;
   }
 
-  .proposal__description {
+  .proposal__item-description {
     font-size: 14px;
   }
 
@@ -256,7 +260,7 @@
     margin-bottom: 0;
   }
 
-  .histories .plug {
+  .histories__plug {
     display: none;
   }
 
@@ -299,7 +303,7 @@
     margin-bottom: 30px;
   }
 
-  .slider__list {
+  .slider__links-list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -312,25 +316,25 @@
             justify-content: center;
   }
 
-  .slider__link {
-    margin: 0;
+  .slider__links-item {
+    margin-bottom: 0;
   }
 
-  .slider__link:not(:last-child) {
+  .slider__links-item:not(:last-child) {
     margin-right: 10px;
   }
 
-  .slider .slides__container {
+  .slider__slides {
     text-align: center;
     width: 100%;
     height: 271px;
   }
 
-  .slider .pagination__item {
+  .slider__pagination-item {
     font-size: 46px;
   }
 
-  .slider .pagination__item:not(:last-child) {
+  .slider__pagination-item:not(:last-child) {
     padding-right: 20px;
   }
 
@@ -339,11 +343,11 @@
     grid-gap: 10px;
   }
 
-  .inspiration .title {
+  .inspiration__title {
     font-size: 56px;
   }
 
-  .inspiration .title__container {
+  .inspiration__title-container {
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
             order: 0;
@@ -371,7 +375,7 @@
     font-size: 18px;
   }
 
-  .runString {
+  .ticker {
     font-size: 72px;
   }
 
@@ -384,7 +388,7 @@
   }
 
   .development__img {
-    width: 48%;
+    width: 49%;
     float: none;
     margin-bottom: 2px;
   }
@@ -394,6 +398,7 @@
   }
 
   .development__text-containter {
+    padding-top: 10px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -403,7 +408,7 @@
     width: auto;
   }
 
-  .development__text-containter .development__text {
+  .development__text-containter__text {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
@@ -411,7 +416,7 @@
     margin-top: 30px;
   }
 
-  .development .signatures__container {
+  .development .signature {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -430,11 +435,11 @@
     width: 100%;
   }
 
-  .contacts__top {
+  .footer__contacts-top {
     margin-bottom: 50px;
   }
 
-  .contacts__bottom {
+  .footer__contacts-bottom {
     display: block;
     -webkit-box-flex: 0;
         -ms-flex: none;
@@ -442,13 +447,13 @@
     margin-bottom: 100px;
   }
 
-  .contacts__mail,
-  .contacts__tel {
+  .footer__mail,
+  .footer__tel {
     font-size: 34px;
     line-height: 150%;
   }
 
-  .adress {
+  .footer__adress {
     font-size: 16px;
     margin-bottom: 30px;
   }
@@ -459,7 +464,7 @@
             justify-content: flex-start;
   }
 
-  .social__item svg {
+  .social__item svg path {
     width: 50px;
     height: 50px;
   }
@@ -494,11 +499,11 @@
     grid-template-columns: 1fr auto;
   }
 
-  .proposal__title {
+  .proposal__item-title {
     font-size: 24px;
   }
 
-  .runString {
+  .ticker {
     font-size: 52px;
   }
 }
