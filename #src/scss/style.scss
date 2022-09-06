@@ -13,6 +13,7 @@ $color-grey-light: #888888;
   font-family: "Roboto-Regular";
   src: local("/fonts/Roboto-Regular.ttf");
 }
+
 * {
   scrollbar-width: thin;
   scrollbar-color: #8f8f8f #e7e7e7;
@@ -54,11 +55,13 @@ a {
 }
 .page {
   position: relative;
+  height: 100%;
 }
 
 .wrap {
+  overflow-x: hidden;
   max-width: 1440px;
-  width: 100%;
+  // width: 100%;
   padding-left: 87px;
   padding-right: 87px;
   margin: 0 auto;

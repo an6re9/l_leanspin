@@ -52,11 +52,12 @@ a {
 
 .page {
   position: relative;
+  height: 100%;
 }
 
 .wrap {
+  overflow-x: hidden;
   max-width: 1440px;
-  width: 100%;
   padding-left: 87px;
   padding-right: 87px;
   margin: 0 auto;
